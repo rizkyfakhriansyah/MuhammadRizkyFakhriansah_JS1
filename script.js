@@ -1,11 +1,9 @@
-let x="bagus" 
-switch(x){    
-   case "bagus":
-    console.log("kamu adalah bagus")    
-     break;    
-   case "bukan bagus":
-    console.log("kamu bukan bagus")        
-     break;    
-   default :
-    console.log("Kamu Orang asing")
+for(let i = 0; i < 10; i++){
+    console.log("Ini adalah " + i )
+}
+
+var bahasa = ["Javascript", "HTML", "CSS", "Typescript"];
+
+for(i = 0; i < bahasa.length; i++){
+    console.log(i+". "+ bahasa[i] );
 }
